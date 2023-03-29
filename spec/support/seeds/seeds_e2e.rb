@@ -211,7 +211,6 @@ seeder.create_if_doesnt_exist(Organization, "slug", "bachmanity") do
     name: "Bachmanity",
     summary: Faker::Company.bs,
     profile_image: logo = Rails.root.join("app/assets/images/#{rand(1..40)}.png").open,
-    nav_image: logo,
     url: Faker::Internet.url,
     slug: "bachmanity",
   )
@@ -234,7 +233,6 @@ seeder.create_if_doesnt_exist(Organization, "slug", "awesomeorg") do
     name: "Awesome Org",
     summary: Faker::Company.bs,
     profile_image: logo = Rails.root.join("app/assets/images/#{rand(1..40)}.png").open,
-    nav_image: logo,
     url: Faker::Internet.url,
     slug: "awesomeorg",
   )
@@ -257,7 +255,6 @@ seeder.create_if_doesnt_exist(Organization, "slug", "org3") do
     name: "Org 3",
     summary: Faker::Company.bs,
     profile_image: logo = Rails.root.join("app/assets/images/#{rand(1..40)}.png").open,
-    nav_image: logo,
     url: Faker::Internet.url,
     slug: "org3",
   )
@@ -274,7 +271,6 @@ seeder.create_if_doesnt_exist(Organization, "slug", "org4") do
     name: "Org 4",
     summary: Faker::Company.bs,
     profile_image: logo = Rails.root.join("app/assets/images/#{rand(1..40)}.png").open,
-    nav_image: logo,
     url: Faker::Internet.url,
     slug: "org4",
   )
